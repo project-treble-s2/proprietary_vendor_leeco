@@ -379,6 +379,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so
     vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.lineage.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lineage.power@1.0.so
+    vendor/leeco/s2/proprietary/vendor/lib64/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libbinder.so
+    vendor/leeco/s2/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so
+    vendor/leeco/s2/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so
 
 PRODUCT_PACKAGES += \
     libtfa9890
