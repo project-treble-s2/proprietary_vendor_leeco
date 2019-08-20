@@ -16,41 +16,41 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_General_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_General_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/QRD_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8952 \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8976 \
@@ -346,6 +346,39 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libstlport_sta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport_sta.so
+    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.0.so
+    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.1.so
+    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore-utils.so
+    vendor/leeco/s2/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so
+    vendor/leeco/s2/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so
+    vendor/leeco/s2/proprietary/vendor/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.so
+    vendor/leeco/s2/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so
+    vendor/leeco/s2/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so
+    vendor/leeco/s2/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so
+    vendor/leeco/s2/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so
+    vendor/leeco/s2/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so
+    vendor/leeco/s2/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+    vendor/leeco/s2/proprietary/vendor/lib/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui.so
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so
+    vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.0.so
+    vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.1.so
+    vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore-utils.so
+    vendor/leeco/s2/proprietary/vendor/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so
+    vendor/leeco/s2/proprietary/vendor/lib64/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.so
+    vendor/leeco/s2/proprietary/vendor/lib64/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui.so
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so
+    vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so
+    vendor/leeco/s2/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.lineage.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lineage.power@1.0.so
 
 PRODUCT_PACKAGES += \
     libtfa9890
