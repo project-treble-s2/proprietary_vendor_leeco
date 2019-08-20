@@ -52,61 +52,61 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8952 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8976 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/alipay.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/alipay.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/alipay.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/alipay.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/alipay.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/alipay.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxhdcp2.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxhdcp2.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxhdcp2.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxhdcp2.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/dxhdcp2.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.mbn \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/fidotap.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fidotap.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ice40.bin \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/leia_pfp_470.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/leia_pm4_470.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.b04 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.mbn \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus-v1.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b04 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.mbn \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/widevine.b00 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/widevine.b01 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/widevine.b02 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/widevine.b03 \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/widevine.mdt \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
+    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
+    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/leeco/s2/proprietary/etc/firmware/alipay.b00:system/etc/firmware/alipay.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/alipay.b01:system/etc/firmware/alipay.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/alipay.b02:system/etc/firmware/alipay.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/alipay.b03:system/etc/firmware/alipay.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/alipay.mdt:system/etc/firmware/alipay.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b00:system/etc/firmware/fidotap.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b01:system/etc/firmware/fidotap.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b02:system/etc/firmware/fidotap.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b03:system/etc/firmware/fidotap.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mbn:system/etc/firmware/fidotap.mbn \
+    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mdt:system/etc/firmware/fidotap.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
@@ -387,8 +387,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/dpmd \
     vendor/leeco/s2/proprietary/vendor/bin/perfservice:$(TARGET_COPY_OUT_VENDOR)/bin/perfservice \
     vendor/leeco/s2/proprietary/vendor/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pfp.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pm4.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/leeco/s2/proprietary/vendor/etc/init/dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmd.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/perfservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/perfservice.rc \
     vendor/leeco/s2/proprietary/vendor/etc/perf/whitelistedapps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/whitelistedapps.xml \
