@@ -52,18 +52,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8976 \
     vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b00 \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b01 \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b02 \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b03 \
+    vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
@@ -80,11 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/leeco/s2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/leeco/s2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
