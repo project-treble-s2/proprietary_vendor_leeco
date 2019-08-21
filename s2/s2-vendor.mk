@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
-    vendor/leeco/s2/proprietary/vendor/etc/settings/mono_qcom.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/settings/mono_qcom.cnt \
+    vendor/leeco/s2/proprietary/vendor/etc/aamono_qcom.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/aamono_qcom.cnt \
     vendor/leeco/s2/proprietary/vendor/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLetvCameraImageSDK.so \
     vendor/leeco/s2/proprietary/vendor/lib/libamipengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamipengine.so \
     vendor/leeco/s2/proprietary/vendor/lib/libarcimgutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcimgutils.so \
