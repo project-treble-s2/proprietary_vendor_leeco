@@ -52,38 +52,18 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
     vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b00:system/etc/firmware/alipay.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b01:system/etc/firmware/alipay.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b02:system/etc/firmware/alipay.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b03:system/etc/firmware/alipay.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.mdt:system/etc/firmware/alipay.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
     vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
     vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b00:system/etc/firmware/fidotap.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b01:system/etc/firmware/fidotap.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b02:system/etc/firmware/fidotap.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b03:system/etc/firmware/fidotap.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mbn:system/etc/firmware/fidotap.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mdt:system/etc/firmware/fidotap.mdt \
     vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
     vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
     vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
     vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
     vendor/leeco/s2/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
