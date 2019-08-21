@@ -351,7 +351,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.lineage.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lineage.power@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libbinder.so \
     vendor/leeco/s2/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so
+    vendor/leeco/s2/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so
 
 PRODUCT_PACKAGES += \
     libtfa9890
