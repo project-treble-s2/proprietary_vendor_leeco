@@ -353,7 +353,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
     vendor/leeco/s2/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so
+    vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libcutils-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils-full.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libcutils-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcutils-full.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libbfqio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbfqio.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libbfqio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbfqio.so
 
 PRODUCT_PACKAGES += \
     libtfa9890
