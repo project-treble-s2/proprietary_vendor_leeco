@@ -53,30 +53,30 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdbd/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
     vendor/leeco/s2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/DE.o.msm8976 \
-    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b00 \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b01 \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b02 \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b03 \
     vendor/leeco/s2/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
+    vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
+    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
+    vendor/leeco/s2/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/vendor/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
@@ -366,8 +366,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/dpmd \
     vendor/leeco/s2/proprietary/vendor/bin/perfservice:$(TARGET_COPY_OUT_VENDOR)/bin/perfservice \
     vendor/leeco/s2/proprietary/vendor/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
-    vendor/leeco/s2/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pfp.fw \
+    vendor/leeco/s2/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pm4.fw \
     vendor/leeco/s2/proprietary/vendor/etc/init/dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmd.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/perfservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/perfservice.rc \
     vendor/leeco/s2/proprietary/vendor/etc/perf/whitelistedapps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/whitelistedapps.xml \
