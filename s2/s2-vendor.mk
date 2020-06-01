@@ -361,9 +361,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_system.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
-    vendor/leeco/s2/proprietary/vendor/lib/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so \
-    vendor/leeco/s2/proprietary/vendor/lib/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so \
-    vendor/leeco/s2/proprietary/vendor/lib/libqti-util_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client_system.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client_system.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libqti-util_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util_system.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_performance.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqvr_adsp_driver_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvr_adsp_driver_stub.so \
     vendor/leeco/s2/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
@@ -387,9 +387,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_system.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-at.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libqti-util_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client_system.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client_system.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util_system.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
     vendor/leeco/s2/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
