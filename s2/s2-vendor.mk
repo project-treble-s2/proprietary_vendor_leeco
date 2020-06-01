@@ -339,7 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/leeco/s2/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
-    vendor/leeco/s2/proprietary/vendor/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/leeco/s2/proprietary/vendor/etc/init/perfservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/perfservice.rc \
     vendor/leeco/s2/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/leeco/s2/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
@@ -356,10 +356,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtextutils.so \
     vendor/leeco/s2/proprietary/vendor/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtutils.so \
     vendor/leeco/s2/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
-    vendor/leeco/s2/proprietary/vendor/lib/libdiag_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_system.so \
     vendor/leeco/s2/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/leeco/s2/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
-    vendor/leeco/s2/proprietary/vendor/lib/libqmi_cci_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_system.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so \
     vendor/leeco/s2/proprietary/vendor/lib/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so \
@@ -382,10 +382,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so \
     vendor/leeco/s2/proprietary/vendor/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtextutils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtutils.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libdiag_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libqmi_cci_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_$(TARGET_COPY_OUT_VENDOR).so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_system.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-at.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client_$(TARGET_COPY_OUT_VENDOR).so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client_$(TARGET_COPY_OUT_VENDOR).so \
